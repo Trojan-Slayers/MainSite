@@ -198,7 +198,7 @@ const ChatbotAgent = ({ isOpen, onClose, onToggle }: { isOpen: boolean, onClose:
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={handleSendMessage}
-            className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-2 rounded-full hover:shadow-lg transition-shadow"
+            className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-4 py-2 rounded-full hover:shadow-lg transition-shadow"
           >
             <Send size={14} />
           </motion.button>
